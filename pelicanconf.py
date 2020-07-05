@@ -8,7 +8,7 @@ SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'America/Sao_Paulo'
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'English'
 
@@ -28,9 +28,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+#Theme
+THEME = "bootstrap"
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-THEME = 'bootstrap'
